@@ -142,6 +142,20 @@ function App() {
             ) : null}
           </div>
         </div>
+
+        <div className="row">
+          <div className="col-md-6 mx-auto">
+            <h4 className="text-center my-5">How to use?</h4>
+            <div className="embed-responsive embed-responsive-16by9 mb-5">
+              <iframe
+                title="how to use"
+                className="embed-responsive-item "
+                src="https://www.youtube.com/embed/A6qCAZ1la5U"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
